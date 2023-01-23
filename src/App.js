@@ -28,7 +28,7 @@ function App() {
           onKeyPress={handleKeyPress}
         />
         <button onClick={searchQuery}>Search</button>
-        <hr />
+
         <Joke />
       </div>
     </div>

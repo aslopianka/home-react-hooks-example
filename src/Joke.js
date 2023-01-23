@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './App.css';
 
 function Joke() {
   const [joke, setJoke] = useState({});
@@ -26,7 +27,7 @@ function Joke() {
   }, []);
   const { setup, punchline } = joke;
   return (
-    <div>
+    <div className='Joke'>
       <h3>Joke</h3>
       <p>{setup}</p>
       <p>{punchline}</p>
