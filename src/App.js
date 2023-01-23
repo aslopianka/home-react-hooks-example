@@ -1,5 +1,7 @@
 import './App.css';
+import Joke from './Joke.js';
 import React, { useState } from 'react';
+// import { isCompositeComponent } from 'react-dom/test-utils';
 
 function App() {
   const [userQuery, setUserQuery] = useState('');
@@ -26,6 +28,8 @@ function App() {
           onKeyPress={handleKeyPress}
         />
         <button onClick={searchQuery}>Search</button>
+        <hr />
+        <Joke />
       </div>
     </div>
   );
