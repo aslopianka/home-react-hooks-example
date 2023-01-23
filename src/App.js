@@ -19,7 +19,7 @@ function App() {
   };
   return (
     <div className='App'>
-      <h1>Hello Anna!</h1>
+      <h1>Hello </h1>
       <div className='form'>
         <input
           value={userQuery}
